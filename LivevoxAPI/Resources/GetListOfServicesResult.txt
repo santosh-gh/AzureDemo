@@ -1,0 +1,14 @@
+{
+   "services":    [
+      {
+         "serviceId": 46014,
+         "serviceName": "Omega_Manual_RT"
+      },     
+            {
+         "serviceId": 22131,
+         "serviceName": "AgentReg (Agent Call Out 7)"
+      }
+   ],
+   "homeAgent": true,
+   "phoneNumber": "6503517524"
+}

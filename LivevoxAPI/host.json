@@ -1,0 +1,35 @@
+/*{
+  "version": "2.0",
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=stlivevoxrprod;AccountKey=8QdZlaNkJShQ12I2fjKWin/SlNXlN8SBJvdqNda5SouTkjXF8frZ2L21rQg92x2Mi+YPyS2J+9gfSzhuqYkKQw==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "RedisConnectionString": "redis-livevox-prod.redis.cache.windows.net:6380,password=84G7L9CXi3VsDhcfZIWz8cGE2ZBvgbIIYBXBaxq8BzI=,ssl=True,abortConnect=False",
+    "AzureSignalRConnectionString": "Endpoint=https://signalr-livevox-prod.service.signalr.net;AccessKey=37hkErQXtQuKVjvGP58tLVaJ4i65O7tKDELj+HSTUPQ=;Version=1.0;",
+    "logging": {
+      "applicationInsights": {
+        "samplingExcludedTypes": "Request",
+        "samplingSettings": {
+          "isEnabled": true
+        }
+      }
+    }
+  }*/
+
+{
+  "version": "2.0",
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=storagedialer;AccountKey=GWNroKYrQsImZQzZ7ur5wlukeyEnoDaL8cP5Bbg+NOQ4r53wk//F1nqyNFyX5cW6PJEYU/P8EJiiFBWq58j7kg==;BlobEndpoint=https://storagedialer.blob.core.windows.net/;TableEndpoint=https://storagedialer.table.core.windows.net/;QueueEndpoint=https://storagedialer.queue.core.windows.net/;FileEndpoint=https://storagedialer.file.core.windows.net/",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "RedisConnectionString": "livevox-redis.redis.cache.windows.net:6379,password=QXfVfokhTLBHEqg0pi5XuW2ixbmFm54TUlGS2ERVUs4=,ssl=False,abortConnect=False",
+    "AzureSignalRConnectionString": "Endpoint=https://signalr-dialer.service.signalr.net;AccessKey=N3GPN4W8ONKfAJuY06dtT+jjacYkdwRPILD2HC9Z1+E=;Version=1.0;"
+  },
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
+    }
+  }
+}
+

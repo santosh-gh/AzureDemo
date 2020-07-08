@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LivevoxAPI": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

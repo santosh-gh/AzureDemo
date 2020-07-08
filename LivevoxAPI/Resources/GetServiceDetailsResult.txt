@@ -1,0 +1,37 @@
+{
+ "features": {
+        "notReadyReasonCodes": null,
+        "agentNotesEnabled"="true",
+        "agentToAgentTransferEnabled": true,
+        "callRecordingControlEnabled": true,
+        "reasonCodesEnabled": false,
+        "featureCode": 2,
+        "manualOptionEnabled": true,
+        "manualPreview": null,
+        "manualPreviewButtonEnabled": false,
+        "manualTransferEnabled": true,
+        "phoneBookTransferEnabled": true,
+        "confirmOnPreviewDial": false,
+        "previewDefaultAction": "DIAL",
+        "previewTimeout": 30,
+        "scheduledCallback": 2,
+        "scheduledCallbackPhoneReadOnly": false,
+        "scheduledCallbackPreview": false,
+        "previewSkipEnabled": true,
+        "termCodeEnabled": true,
+        "transferOptionEnabled": true,
+        "volumeControlEnabled": true,
+        "lvzEnabled": true,
+        "lvScreenPopurl": "JSONScreenPop_ACDDev.jsp",
+        "strictAccountNumberEnabled",:true
+  },
+    "callInPhoneNumber": null,
+    "callInPinNumber": null,
+    "provideInstructions": null,
+    "clientId":"1234",
+    "clientCode":"ACD210",
+    "serviceId":"22340",
+    "serviceDescription":"DIRECT-CALL"
+    "callCenterId"=1623,
+    "callCenterName"="Test Call Center"
+}

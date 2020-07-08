@@ -1,0 +1,8 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "AzureSignalRConnectionString": "Endpoint=https://sigr-test.service.signalr.net;AccessKey=MJc6dq+FhUhDgbWZSlAU2MmOPKQT9IYI4xZ16zYUSzg=;Version=1.0;"
+  }
+}

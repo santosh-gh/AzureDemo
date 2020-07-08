@@ -1,0 +1,30 @@
+{
+    "screenPopRow": [{
+        "key": "FIRST NAME",
+        "value": "LV"
+    },
+    {
+        "key": "LAST NAME",
+        "value": "SUP"
+    },
+    {
+        "key": "ACCOUNT NUMBER",
+        "value": "abc"
+    },
+    {
+        "key": "PHONE DIALED",
+        "value": "9174645253"
+    },  
+    {
+        "key": "Call Direction",
+        "value": "Outbound"
+    },
+    {
+        "key": "Classification",
+        "value": "Spanish"
+    },  
+    {
+        "key": "Call Skill Name",
+        "value": "Manual (Manual 4)"
+    }]
+}

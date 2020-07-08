@@ -1,0 +1,82 @@
+{ 
+  "termCodeCategories": [ 
+    { 
+      "termCodes": [ 
+        { 
+          "id":"2859344", 
+          "name":"BANKRUPTCY", 
+          "lvResultId":"724", 
+          "lvResult":"AGENT - Bankrupt", 
+          "reportDisplayOrder":0, 
+          "previewDialEnabled":false, 
+          "actionType":"RPC_WITHOUT_PAYMENT", 
+          "paymentAmtRequired":false, 
+          "triggerDnc":true 
+        }, 
+        { 
+          "id":"2859386", 
+          "name":"ELECTRONIC PAYMENT", 
+          "lvResultId":"964", 
+          "lvResult":"AGENT - CUST RPC PTP 1", 
+          "reportDisplayOrder":0, 
+          "previewDialEnabled":false, 
+          "actionType":"RPC_WITH_PAYMENT", 
+          "paymentAmtRequired":true, 
+          "triggerDnc":true 
+        } ], 
+      "name":"RPC" 
+    }, 
+    { 
+      "termCodes": [ 
+        { 
+          "id":"2859362", 
+          "name":"FAX/MODEM", 
+          "lvResultId":"741", 
+          "lvResult":"AGENT - Fax", 
+          "reportDisplayOrder":0, 
+          "previewDialEnabled":false, 
+          "actionType":"OTHER", 
+          "paymentAmtRequired":false, 
+          "triggerDnc":false 
+        }, 
+        { 
+          "id":"2859388", 
+          "name":"NO ANSWER", 
+          "lvResultId":"1284", 
+          "lvResult":"AGENT - CUST 18", 
+          "reportDisplayOrder":0, 
+          "previewDialEnabled":false, 
+          "actionType":"OTHER", 
+          "paymentAmtRequired":false, 
+          "triggerDnc":false 
+        } ], 
+      "name":"Other" 
+    }, 
+    { 
+      "termCodes": [ 
+        {  
+          "id":"2859352", 
+          "name":"LEFT MESSAGE", 
+          "lvResultId":"734", 
+          "lvResult":"AGENT - Left Message Person", 
+          "reportDisplayOrder":0, 
+          "previewDialEnabled":false, 
+          "actionType":"OTHER", 
+          "paymentAmtRequired":false, 
+          "triggerDnc":false 
+        }, 
+        { 
+          "id":"2859374", 
+          "name":"AMD LEFT MESSAGE", 
+          "lvResultId":"755", 
+          "lvResult":"AGENT - CUST 5", 
+          "reportDisplayOrder":0, 
+          "previewDialEnabled":false, 
+          "actionType":"OTHER", 
+          "paymentAmtRequired":false, 
+          "triggerDnc":false 
+        } ], 
+      "name":"Message" 
+    } 
+  ] 
+} 
